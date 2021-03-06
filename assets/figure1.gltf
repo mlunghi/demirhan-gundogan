@@ -1,0 +1,141 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.1.46",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "name" : "Light",
+            "rotation" : [
+                0.16907575726509094,
+                0.7558803558349609,
+                -0.27217137813568115,
+                0.570947527885437
+            ],
+            "translation" : [
+                4.2060723304748535,
+                3.0723109245300293,
+                0.9893704652786255
+            ]
+        },
+        {
+            "mesh" : 0,
+            "name" : "Skin_ZSphere_2",
+            "rotation" : [
+                -0.9851527214050293,
+                0.008251434192061424,
+                0.014421174302697182,
+                0.17087610065937042
+            ],
+            "scale" : [
+                1.8454818725585938,
+                1.8454821109771729,
+                1.845482587814331
+            ],
+            "translation" : [
+                -0.047412753105163574,
+                1.0384052991867065,
+                -0.8560141921043396
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "Skin_ZSphere_2",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "metallicFactor" : 1,
+                "roughnessFactor" : 1
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Skin_ZSphere_2",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1
+                    },
+                    "indices" : 2,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 880903,
+            "max" : [
+                0.4210338294506073,
+                0.5882649421691895,
+                0.3101559281349182
+            ],
+            "min" : [
+                -0.3392048478126526,
+                -1.301413655281067,
+                -0.89271479845047
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 880903,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5125,
+            "count" : 881103,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 10570836,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 10570836,
+            "byteOffset" : 10570836
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 3524412,
+            "byteOffset" : 21141672
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 24666084,
+            "uri" : "figure1.bin"
+        }
+    ]
+}
